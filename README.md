@@ -5,36 +5,55 @@
 </p>
 
 <p align="center">
-  An Android keyboard for the emojis Unicode forgot.
+  A fully customizable Android keyboard. Make it yours.
 </p>
 
-Missingmoji is a planned custom keyboard project for original emoji-style artwork, stickers, and expressive characters — including the legendary seahorse and robber.
+Missingmoji is a planned Android keyboard focused on customization, expression, and user control. Build a keyboard that feels like yours — from its appearance and layout to the tools you use every day.
+
+Custom emoji and sticker artwork, including the legendary seahorse and robber, will be part of the experience too.
 
 > **Project status: Coming soon.** Development has not started yet.
 
 ## Planned features
 
-- Custom seahorse and robber artwork
-- Searchable custom emoji and sticker library
-- Favorites and recently used items
-- Android keyboard integration
-- Clean, minimal interface
-- Privacy-first design
+### Personalization
+- Custom themes, colors, and backgrounds
+- Adjustable keyboard height, key size, and spacing
+- Configurable layouts and toolbar
+- Supported font and key-style options
+- Customizable key sounds and haptic feedback
+
+### Typing tools
+- Multiple language layouts
+- Emoji and sticker browser
+- Search, favorites, and recently used items
+- Clipboard shortcuts
+- Optional typing assistance and suggestions
+
+### Custom expression
+- Original Missingmoji artwork, including seahorse and robber designs
+- Custom emoji-style images and stickers
+- A library designed to grow over time
+
+### Privacy
+- No ads, accounts, or subscriptions planned
+- Keep core keyboard features usable without an account
+- Be transparent about any data used by optional typing features
 
 ## Planned tech
 
 - Kotlin
 - Android
 - Jetpack Compose
-- Android Input Method Framework
+- Android Input Method Framework (IME)
 
 ## A quick technical note
 
-Custom artwork cannot become a universally supported Unicode emoji just by adding it to a keyboard. Missingmoji will initially use its own artwork through image or sticker insertion, with compatibility depending on the app being used.
+Custom artwork cannot become a universally supported Unicode emoji just by adding it to a keyboard. Missingmoji will use its own artwork through image or sticker insertion where supported. Compatibility can vary between apps, so a text-based fallback may be needed.
 
 ## Project status
 
-This repository is an early project placeholder. Features, design, and implementation details may change as development begins.
+This repository is an early project placeholder. The feature list is a direction, not a promise that every feature is already implemented. Design and implementation details may change as development begins.
 
 See [the roadmap](docs/ROADMAP.md) for the current plan.
 
